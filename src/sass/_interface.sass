@@ -1,0 +1,40 @@
+*
+	box-sizing: border-box
+body
+	+reg
+	color: $text-color
+.container
+	width: 1170px
+	margin: auto
+.phone
+	display: block
+	text-decoration: none
+	color: $text-color
+	+bold	
+.button
+	+bold
+	border: none
+	border-radius: 10px
+	background-color: $main-color
+	&:hover
+		background-color: lighten($main-color, 10%)
+		cursor: pointer
+.input
+	padding: 25px 30px
+	color: $input_text-color
+	font-size: 15px
+	border-radius: 10px
+	border: 1px solid $input_border-color
+	outline: none
+@media (min-width: 992px) and (max-width: 1199px)
+	.container
+		width: 960px
+@media (min-width: 768px) and (max-width: 991px)
+	.container
+		width: 720px
+@media (min-width: 567px) and (max-width: 767px)
+	.container
+		width: 540px
+@media (max-width: 566px)
+	.container
+		max-width: 280px

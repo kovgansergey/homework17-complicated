@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>homework17(complicated)</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Навигационная панель -->
+	<nav class="navbar">
+		<div class="container">
+			<div class="navbar-wrap">
+				<div class="navbar__logo">
+					<img src="img/navbar/logo.png" alt="logo"
+					srcset="img/navbar/logo.png 155w,
+					        img/navbar/logo-mobile.png 91w"
+					sizes="(min-width: 768px) 155px,
+					       (max-width: 767px) 91px">
+				</div>
+				<!-- /.navbar__logo -->
+				<div class="navbar__info">
+					<div class="navbar__contacts">
+						<span class="navbar__address">Калуга, Москва, МО</span>
+						<a href="tel:+74954225131" class="phone navbar__phone">+7 (495) 42-251-31</a>
+					</div>
+					<button class="button navbar__button" id="callMeBtn">Перезвоните мне</button>
+				</div>
+				<!-- /.navbar__info -->
+			</div>
+			<!-- /.navbar-wrap -->
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!-- /.navbar -->
+
+	<!-- Заглавная секция -->
+	<header class="header">
+		<div class="container">
+			<div class="header-wrap">
+				<div class="header-description">
+					<h1 class="header-description__title">Внутренняя отделка<br>помещений "под ключ"</h1>
+					<p class="header-description__subtitle">с гарантией качества, прописанной в договоре</p>
+					<ul class="header-list">
+						<li class="header-list__item">
+							<div class="header-list__img">
+								<img src="img/header/icon-1.png" alt="clock">
+							</div>
+							<p class="header-list__text">Точно соблюдаем сроки</p>
+						</li>
+						<li class="header-list__item">
+							<div class="header-list__img">
+								<img src="img/header/icon-2.png" alt="calculator">
+							</div>
+							<p class="header-list__text">Рассчитаем смету на работы<br>и материалы в день обращения</p>
+						</li>
+						<li class="header-list__item">
+							<div class="header-list__img">
+								<img src="img/header/icon-3.png" alt="paint-board">
+							</div>
+							<p class="header-list__text">Предложим более 100 вариантов<br>исполнения дизайна Вашего жилья</p>
+						</li>
+					</ul>
+				</div>
+				<!-- /.header-description -->
+				<div class="header-img">
+					<img src="img/header/header-img.jpg" alt="Комната">
+				</div>
+				<!-- /.header-img -->
+			</div>
+			<!-- /.header-wrap -->
+		</div>
+		<!-- /.container -->
+	</header>
+	<!-- /.header -->
+
+	<!-- Секция предложение -->
+	<section class="offer">
+		<div class="container">
+			<div class="offer-card">
+				<h2 class="offer__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
+				<!-- /.offer__title -->
+				<p class="offer__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</p>
+				<!-- /.offer__subtitle -->
+				<form action="" class="form offer__form">
+					<input type="text" class="input offer__input" placeholder="Ваше имя">
+					<input type="tell" class="input offer__input" placeholder="Ваш телефон">
+					<button class="button offer__button">Получить бесплатный дизайн-проект</button>
+				</form>
+				<!-- /.form offer__form -->
+				<div class="offer-connection">
+					<div class="offer-connection__manager">
+						<p class="offer-connection__text">Наш менеджер перезвонит Вам в течение 60 секунд</p>
+					</div>
+					<div class="offer-connection__myself">
+						<p class="offer-connection__text">или перезвоните нам сами</p>
+						<a href="tel:+74954225131" class="phone offer__phone">+7 (495) 42-251-31</a>
+					</div>
+				</div>
+				<!-- /.offer-call -->
+			</div>
+			<!-- /.offer-card -->
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.offer -->
+
+	<!-- модальное окно -->
+	<div class="modal" id="modal">
+		<div class="modal-dialog">
+			<button class="modal-dialog__close" id="closemodal">&times;</button>
+			<h4 class="modal-dialog__title">Всплывающее окно.</h4>
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
