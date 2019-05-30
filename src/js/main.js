@@ -1,6 +1,6 @@
 var callMe = document.querySelector('#callMeBtn');
 var modal = document.querySelector('#modal');
-var closeModal = document.querySelector('#closemodal')
+var closeModal = document.querySelector('#closemodal');
 
 callMe.addEventListener('click', function() {
 	modal.classList.add('modal_active');
